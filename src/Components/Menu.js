@@ -60,9 +60,13 @@ const Menu = () => {
               return (
                 <div className="food" key={id}>
                   <img src={img} alt="" />
-                  <h4>{name}</h4>
-                  <p>{price}</p>
-                  <p>{description}</p>
+                  <div className="NPD">
+                    <div className="NP">
+                      <h4>{name}</h4>
+                      <p>{price}</p>
+                    </div>
+                    <p>{description}</p>
+                  </div>
                 </div>
               );
             })}
@@ -76,9 +80,13 @@ const Menu = () => {
                 return (
                   <div className="food" key={id}>
                     <img src={img} alt="" />
-                    <h4>{name}</h4>
-                    <p>{price}</p>
-                    <p>{description}</p>
+                    <div className="NPD">
+                      <div className="NP">
+                        <h4>{name}</h4>
+                        <p>{price}</p>
+                      </div>
+                      <p>{description}</p>
+                    </div>
                   </div>
                 );
               }
@@ -93,9 +101,13 @@ const Menu = () => {
                 return (
                   <div className="food" key={id}>
                     <img src={img} alt="" />
-                    <h4>{name}</h4>
-                    <p>{price}</p>
-                    <p>{description}</p>
+                    <div className="NPD">
+                      <div className="NP">
+                        <h4>{name}</h4>
+                        <p>{price}</p>
+                      </div>
+                      <p>{description}</p>
+                    </div>
                   </div>
                 );
               }
@@ -110,9 +122,13 @@ const Menu = () => {
                 return (
                   <div className="food" key={id}>
                     <img src={img} alt="" />
-                    <h4>{name}</h4>
-                    <p>{price}</p>
-                    <p>{description}</p>
+                    <div className="NPD">
+                      <div className="NP">
+                        <h4>{name}</h4>
+                        <p>{price}</p>
+                      </div>
+                      <p>{description}</p>
+                    </div>
                   </div>
                 );
               }
