@@ -137,6 +137,9 @@ p {
   width: 90vw;
   margin: 0 auto;
   max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 992px) {
@@ -353,4 +356,25 @@ p {
 }
 .description {
   padding: 0rem 2.6rem;
+}
+.containerNav {
+  border: none;
+  display: flex;
+  align-items: center;
+  min-width: 400px;
+  justify-content: space-evenly;
+}
+.containerNav button {
+  color: #c59d5f;
+  font-size: 1rem;
+  min-width: 70px;
+  transition: color 0.3s, background-color 0.2s;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 10%;
+  background-color: inherit;
+}
+.containerNav button:hover {
+  background-color: rgb(175, 99, 7);
+  color: white;
 }
